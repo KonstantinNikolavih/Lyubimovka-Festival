@@ -1,0 +1,49 @@
+.social-networks__link {
+  --dark: #242424;
+  --light: #ecebe8;
+  position: relative;
+  font-family: "FormularLight";
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 300;
+  height: 24px;
+  font-size: 16px;
+  padding-right: 8px;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  border-left: 1px solid var(--dark);
+  border-bottom: 1px solid var(--dark);
+  align-items: center;
+  display: inline-flex;
+  vertical-align: 24px;
+  overflow: hidden;
+}
+
+.social-networks__link:hover {
+  color: var(--light);
+}
+
+.social-networks__link::before {
+  content: "";
+  position: absolute;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  background-color: var(--dark);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.social-networks__link:hover::before {
+  transform: translateX(0);
+}
+
+.social-networks__link:hover .social-networks__pointer > path {
+  fill: var(--light);
+}
+
+@media screen and (max-width: 770px) {
+  .social-networks__link {
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,11 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/social-networks/social-networks.css);
+@import url(../blocks/social-networks/__link/social-networks__link.css);
+@import url(../blocks/social-networks/__title/social-networks__title.css);
+@import url(../blocks/social-networks/__image/social-networks__image.css);
+@import url(../blocks/social-networks/__img-container/social-networks__img-container.css);
+@import url(../blocks/social-networks/__pointer/social-networks__pointer.css);

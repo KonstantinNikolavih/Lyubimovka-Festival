@@ -1,0 +1,13 @@
+.social-networks__image {
+  width: 100%;
+}
+
+@media screen and (max-width: 770px) {
+  .social-networks__image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    object-fit: cover;
+  }
+}

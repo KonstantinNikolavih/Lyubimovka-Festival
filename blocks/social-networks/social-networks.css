@@ -1,0 +1,9 @@
+.social-networks {
+  padding: 64px 60px 139px;
+}
+
+@media screen and (max-width: 770px) {
+  .social-networks {
+    padding: 64px 0 139px;
+  }
+}
