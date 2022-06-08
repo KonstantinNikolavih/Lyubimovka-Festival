@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Neue Machina";
+  src: url("PPNeueMachina-Regular.eot") format("embedded-opentype"),
+    url("PPNeueMachina-Regular.woff2") format("woff2"),
+    url("PPNeueMachina-Regular.woff") format("woffs");
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: -0.01em;
+}
