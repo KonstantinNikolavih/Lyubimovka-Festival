@@ -1,0 +1,7 @@
+.header__list-item_type_social:first-child {
+  margin-left: 23px;
+}
+
+.header__list-item_type_social:last-child {
+  margin-right: 28px;
+}
