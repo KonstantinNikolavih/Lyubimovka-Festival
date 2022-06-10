@@ -1,0 +1,11 @@
+.header__list-links {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  line-height: 33px;
+  border-right: 1px black solid;
+}
+
+.header__list-links:last-child {
+  border-right: none;
+}

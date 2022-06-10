@@ -1,0 +1,5 @@
+.header__list-links_type_links {
+  display: grid;
+  grid-gap: 44px;
+  grid-template-columns: repeat(8, auto);
+}
